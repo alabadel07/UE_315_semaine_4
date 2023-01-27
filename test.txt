@@ -1,0 +1,19 @@
+// exemple de creation de user 
+mutation {
+    createUser(input: { firstname: "test", lastname: "test",email: "test"}){
+        id 
+        firstname
+        lastname
+        email
+    }
+}
+
+// retourner tout les user
+query{
+    users{
+      id
+      firstname
+      lastname
+      email
+    }
+  }
