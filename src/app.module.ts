@@ -6,7 +6,7 @@ import { UsersModule } from './Users/Users.module';
 import { ApolloDriver } from '@nestjs/apollo';
 import { MongooseModule } from '@nestjs/mongoose';
 
-@Module({
+@Module({ 
   imports: [
     UsersModule,
     GraphQLModule.forRoot({

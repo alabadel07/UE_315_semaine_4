@@ -6,7 +6,7 @@ import { UserInput } from './inputs/user.input';
 import { UpdateUserInput } from './inputs/user-update.input';
 
 @Injectable()
-export class UsersService {
+export class UsersService { 
   constructor(@InjectModel('User') private userModel: Model<User>) {}
 
   async create(createUserDto: UserInput): Promise<User> {

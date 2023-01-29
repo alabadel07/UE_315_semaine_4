@@ -9,5 +9,5 @@ export class UserInput {
     @Field()
     readonly lastname: String;
     @Field()
-    readonly email: String;
+    readonly email: String; 
 }

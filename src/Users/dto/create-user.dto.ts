@@ -11,5 +11,5 @@ export class UserType {
     @Field()
     readonly lastname: String;
     @Field()
-    readonly email: String;
+    readonly email: String; 
 }

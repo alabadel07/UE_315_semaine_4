@@ -14,6 +14,6 @@ query{
       id
       firstname
       lastname
-      email
+      email 
     }
   }

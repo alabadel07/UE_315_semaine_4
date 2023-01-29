@@ -8,9 +8,9 @@ import { UsersService } from "./users.service";
 export class UsersResolver {
   constructor(
     private readonly usersService: UsersService,
-  ) {}
+  ) {} 
 
-  @Query(()=> String)
+  @Query(()=> String) 
   async hello() {
     return 'hello';
   }

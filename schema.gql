@@ -11,7 +11,7 @@ type UserType {
 
 type Query {
   hello: String!
-  users: [UserType!]!
+  users: [UserType!]! 
 }
 
 type Mutation {

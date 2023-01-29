@@ -5,4 +5,4 @@ export interface User extends Document {
     readonly firstname: String;
     readonly lastname: String;
     readonly email: String;
-}
+} 
